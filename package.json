@@ -1,15 +1,23 @@
 {
-  "name": "server",
+  "name": "server-imagegenerator",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshchhetri9/server-ImageGenerator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshchhetri9/server-ImageGenerator/issues"
+  },
+  "homepage": "https://github.com/adarshchhetri9/server-ImageGenerator#readme",
   "dependencies": {
     "cloudinary": "^1.33.0",
     "cors": "^2.8.5",
